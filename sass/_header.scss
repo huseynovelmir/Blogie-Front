@@ -1,0 +1,332 @@
+@import url('http://fonts.cdnfonts.com/css/euclid-circular-a?styles=100037,100034,100036,100039,100031');
+
+.hdr {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: $clr-white;
+
+
+
+
+    .navbar {
+        display: flex;
+        align-items: center;
+
+
+
+        nav {
+            display: flex;
+
+
+            ul {
+                display: flex;
+                justify-content: space-around;
+                margin-bottom: 0px;
+                padding-left: 0px;
+
+
+
+                li {
+                    list-style-type: none;
+                    margin-right: 50px;
+
+                    a {
+                        text-decoration: none;
+                        font-family: 'Euclid Circular A';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: $clr-basic;
+                    }
+                }
+            }
+        }
+
+
+
+
+        .lng {
+            ul {
+                display: flex;
+                width: 300px;
+                justify-content: space-evenly;
+                padding-left: 0px;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50px;
+                    background-color: $clr-basic400;
+                    text-align: center;
+                    font-family: 'Euclid Circular A';
+                    list-style-type: none;
+                    color: $clr-basic;
+
+                }
+
+                li:hover {
+                    background-color: $clr-basic;
+                    color: $clr-brandyellow500;
+                }
+            }
+        }
+
+        .signup {
+            display: flex;
+            align-items: center;
+
+
+            .btns-div {
+                display: flex;
+                flex-direction: column;
+
+                .guest {
+                    width: 250px;
+                    height: 48px;
+                    background-color: $clr-brandyellow500;
+                    border: none;
+                    border-radius: 8px;
+                    margin-bottom: 20px;
+
+                }
+
+                .content {
+                    width: 250px;
+                    height: 48px;
+                    background-color: $clr-basic400;
+                    border: none;
+                    border-radius: 8px;
+
+                }
+            }
+
+            .lang {
+                display: flex;
+                align-items: center;
+                background-color: $clr-white;
+                border: none;
+                margin-right: 8px;
+                border-right: 1px solid $clr-Basic500 ;
+                padding-right: 8px;
+            }
+
+            .enazru {
+                cursor: pointer;
+                position: absolute;
+                border: 2px solid $clr-Basic500;
+                border-radius: 8px;
+                width: 56px;
+                height: 92px;
+                top: 50px;
+                display: none;
+                overflow: hidden;
+                background-color: $clr-white;
+
+                ul {
+                    height: 92px;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 0px;
+
+
+
+
+
+                    li {
+                        list-style-type: none;
+                        font-family: 'Euclid Circular A';
+                        height: 100%;
+                        padding-top: 3px;
+
+                    }
+
+                    li:hover {
+                        background-color: $clr-basic400;
+                    }
+
+                }
+
+            }
+
+            .usdazn {
+                cursor: pointer;
+                position: absolute;
+                border: 2px solid $clr-Basic500;
+                border-radius: 8px;
+                width: 56px;
+                height: 92px;
+                top: 50px;
+                display: none;
+                margin-left: 60px;
+                overflow: hidden;
+                background-color: $clr-white;
+
+                ul {
+                    height: 92px;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 0px;
+
+
+
+
+                    li {
+                        list-style-type: none;
+                        font-family: 'Euclid Circular A';
+                        height: 100%;
+                        padding-top: 3px;
+
+                    }
+
+                    li:hover {
+                        background-color: $clr-basic400;
+                    }
+                }
+            }
+
+            .currency {
+                font-family: 'Euclid Circular A';
+                color: $clr-basic400;
+                margin-bottom: 10px;
+
+            }
+
+            .change {
+                display: flex;
+                align-items: center;
+                background-color: $clr-white;
+                border: none;
+                margin-right: 25px;
+
+            }
+        }
+
+
+
+
+        .login-btn {
+
+            width: 92px;
+            height: 40px;
+            background-color: $clr-white;
+            border: 1px solid $clr-Basic500;
+            border-radius: 8px;
+            margin-right: 25px;
+
+        }
+
+        .signup-btn {
+            width: 101px;
+            height: 40px;
+            right: 112px;
+            top: 24px;
+            background-color: $clr-brandyellow500;
+            border: 1px solid $clr-brandyellow500;
+            border-radius: 8px;
+
+            a {
+
+                text-decoration: none;
+                color: $clr-basic800;
+
+
+                padding: 10px 20px;
+
+            }
+        }
+    }
+
+}
+
+
+.test {
+    left: 0 !important;
+}
+
+.i-block {
+    display: inline-block !important;
+}
+
+
+
+//! signup HTML signup HTML signup HTML signup HTML 
+
+
+.signup-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+
+    .signup-login {
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            font-family: 'Euclid Circular A';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+
+        }
+
+        .signup-login-btn {
+            width: 101px;
+            height: 40px;
+
+
+
+            background: $clr-white;
+
+
+            border: 1px solid $clr-Basic700;
+            border-radius: 8px;
+        }
+
+    }
+}
+
+
+
+//! BALANCE HTML BALANCE HTML BALANCE HTML BALANCE HTML 
+.balance-navbar {
+    width: 25%;
+}
+
+.header {
+
+    .balance-person-area {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            margin-inline: 5px;
+        }
+
+    }
+}

@@ -1,0 +1,1425 @@
+.container-section {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+section {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container-sec {
+    // max-width: 1400px;
+    // margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+    padding-inline: 250px;
+
+    h1 {
+        font-family: 'Euclid Circular A';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 72px;
+        color: $clr-basic;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .text {
+        font-family: 'Euclid Circular A';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: $clr-ptext;
+        margin-top: 20px;
+    }
+
+    .creator-btns {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+
+        .guest {
+            margin-top: 20px;
+            width: 250px;
+            height: 48px;
+            background-color: $clr-brandyellow500;
+            border: none;
+            border-radius: 8px;
+            margin-right: 10px;
+
+        }
+
+        p {
+            font-family: 'Euclid Circular A';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: $clr-ptext;
+            margin-top: 20px;
+            margin-bottom: 0px;
+
+        }
+
+        .content {
+            margin-left: 10px;
+            margin-top: 20px;
+            width: 250px;
+            height: 48px;
+            background-color: $clr-basic400;
+            border: none;
+            border-radius: 8px;
+        }
+    }
+
+    .xxx {
+
+        position: absolute;
+        left: 10px;
+        top: 250px;
+    }
+
+    .group {
+
+        position: absolute;
+        right: 100px;
+        top: 350px;
+    }
+
+    .plus {
+
+        position: absolute;
+        right: 50px;
+        top: 40px;
+
+    }
+
+}
+
+
+
+.features {
+    // max-width: 1400px;
+    // margin: 0 auto;
+    background-color: #edf1f7a0;
+    margin-top: 200px;
+    width: 100%;
+    height: 508px;
+
+    .features-img {
+        position: absolute;
+
+        img {
+
+            width: 100%;
+        }
+    }
+
+    .features-text {
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        h1 {
+
+            font-family: 'Euclid Circular A';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 34px;
+            line-height: 40px;
+            color: $clr-basic;
+
+            text-align: center;
+        }
+    }
+
+    .features-content {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        .content {
+            width: 360px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 1;
+
+
+            img {
+                width: 64px;
+                height: 56px;
+                margin-top: 40px;
+            }
+
+            h1 {
+                font-family: 'Euclid Circular A';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 28px;
+                color: $clr-basic;
+                margin-top: 40px;
+                text-align: center;
+            }
+
+            p {
+                margin-top: 20px;
+                font-family: 'Euclid Circular A';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: $clr-ptext;
+
+                text-align: center;
+            }
+        }
+    }
+
+
+
+}
+
+.analyze-text {
+    // max-width: 1400px;
+    // margin: 0 auto;
+
+    h1 {
+        font-family: 'Euclid Circular A';
+        color: $clr-basic;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 40px;
+        margin-top: 60px;
+        margin-left: 70px;
+    }
+}
+
+.analyze {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+    .signup-text {
+        width: 384px;
+        margin-left: 70px;
+
+        h2 {
+            color: $clr-brandyellow500;
+            margin-top: 100px;
+
+        }
+
+        h1 {
+            font-family: 'Euclid Circular A';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 34px;
+            line-height: 40px;
+            color: $clr-basic;
+            margin-top: 30px;
+
+        }
+
+        p {
+            font-family: 'Euclid Circular A';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: $clr-ptext;
+            margin-top: 30px;
+        }
+    }
+
+    .signup-block {
+        display: flex;
+        width: 434px;
+        height: 416px;
+        position: relative;
+
+        .ellips1 {
+            width: 176px;
+            height: 176px;
+            z-index: -1;
+            margin-right: 50px;
+        }
+
+        .block {
+            background-color: $clr-card;
+            position: absolute;
+            border: 10px solid white;
+            display: flex;
+            border-radius: 8px;
+            width: 280px;
+            height: 384px;
+            top: 50px;
+            right: 110px;
+            align-items: center;
+            flex-direction: column;
+
+
+            h1 {
+                font-family: 'Euclid Circular A';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 32px;
+                color: $clr-basic;
+                margin-top: 70px;
+                text-align: center;
+            }
+
+            .block-sign {
+                width: 184px;
+                height: 40px;
+                border: none;
+                background: $clr-brandyellow500;
+                border-radius: 8px;
+                color: $clr-basic;
+                font-family: 'Euclid Circular A';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                margin-top: 80px;
+
+            }
+
+            .block-login {
+                width: 184px;
+                height: 40px;
+                border: none;
+                background: $clr-white;
+                border-radius: 8px;
+                color: $clr-basic;
+                font-family: 'Euclid Circular A';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                margin-top: 20px;
+            }
+        }
+
+        .ellips2 {
+            width: 176px;
+            height: 176px;
+            z-index: -1;
+            margin-top: 250px;
+            margin-right: 50px;
+        }
+
+
+
+    }
+
+    .websites-block {
+        width: 488px;
+        height: 297px;
+        position: relative;
+        display: flex;
+        margin-top: 60px;
+
+        .web-bg {
+            position: absolute;
+            margin-left: 40px;
+        }
+
+        .ellipse {
+            position: absolute;
+            z-index: -1;
+            width: 176px;
+            height: 176px;
+            border-radius: 100px;
+            background-color: $clr-brandyellow;
+            right: -60px;
+            top: 40px;
+
+        }
+
+
+
+        .websites {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            margin-top: 100px;
+            margin-left: 100px;
+            z-index: 2;
+            width: 384px;
+            height: 220px;
+            background-color: $clr-brandyellow500;
+            border-radius: 10px;
+
+            h5 {
+                font-family: 'Euclid Circular A';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 32px;
+                text-align: center;
+                color: $clr-basic;
+
+            }
+
+            .medium-block {
+                margin-inline: 35px;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+                align-content: center;
+
+                .web-container {
+                    display: block;
+                    position: relative;
+                    padding-left: 35px;
+                    margin-bottom: 12px;
+                    cursor: pointer;
+                    font-size: 22px;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+
+                    .cck {
+
+                        appearance: none;
+                        cursor: pointer;
+
+                        background-color: rgba(255, 255, 255, 0.347);
+                        border: none;
+                        width: 1.15em;
+                        height: 1.15em;
+                        border-radius: 0.15em;
+
+
+
+
+
+
+
+                    }
+
+
+
+                }
+
+
+            }
+        }
+    }
+}
+
+.acces {
+    // max-width: 1400px;
+    // margin: 0 auto;
+    background-color: #ffda20a0;
+    margin-top: 200px;
+    width: 100%;
+    height: 330px;
+
+
+    .acces-img {
+        position: absolute;
+
+        img {
+
+            width: 100%;
+        }
+    }
+
+    .acces-text {
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        h1 {
+            z-index: 10;
+            font-family: 'Euclid Circular A';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 34px;
+            line-height: 40px;
+            color: $clr-basic;
+
+            text-align: center;
+        }
+    }
+
+    .acces-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+
+        .acces-box {
+            z-index: 10;
+            width: 254px;
+            height: 133px;
+            background-color: $clr-basic;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            h1 {
+                font-family: 'Euclid Circular A';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 34px;
+                line-height: 40px;
+                text-align: center;
+                color: $clr-white;
+            }
+
+            p {
+                font-family: 'Euclid Circular A';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: $clr-ptext;
+            }
+        }
+    }
+
+}
+
+
+
+.container-fluid {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 90%;
+
+
+
+    .slick-prev:before,
+
+    .slick-next:before {
+        color: $clr-basic;
+
+    }
+
+
+
+    .card {
+        display: flex;
+        width: 348px;
+        height: 250px;
+        border-radius: 10px;
+        margin-inline: 20px;
+
+        .card-head {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            align-content: center;
+
+            img {
+                width: 60px;
+                height: 60px;
+                margin-right: 30px;
+                margin-left: 30px;
+            }
+
+            .card-text {
+                z-index: 5;
+
+                .card-text-bg {
+                    position: relative;
+                    background-color: $clr-brandyellow500;
+                    width: 130px;
+                    height: 10px;
+                    border-radius: 2px;
+                    top: 40px;
+                    z-index: 1;
+                    display: block;
+
+                    h5 {
+                        position: absolute;
+                        top: -1rem;
+                        right: -0.3rem;
+                        z-index: 5;
+                        display: inline-block;
+                    }
+                }
+
+                .bg-alice {
+                    width: 103px;
+
+                }
+
+                p {
+                    margin-top: 40px;
+                    margin-left: 11px;
+                    z-index: 5;
+                    display: inline-block;
+
+                }
+            }
+        }
+
+        .card-main {
+            p {
+                margin-top: 5px;
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+        }
+
+    }
+
+}
+
+.customers-container {
+    .customers-head {
+        margin-top: 100px;
+
+        h4 {
+            font-family: 'Euclid Circular A';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 34px;
+            line-height: 40px;
+            text-align: center;
+        }
+    }
+
+    .customers-area {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        overflow-x: scroll;
+
+
+
+    }
+
+    .customers-area::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.guest-container {
+    position: relative;
+    width: 1008px;
+    height: 240px;
+    background-color: $clr-brandyellow500;
+    border-radius: 10px;
+    margin: 100px auto 100px auto;
+
+    .guest-area {
+
+        width: 1008px;
+        height: 240px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .guest-text {
+            width: 520px;
+
+            h5 {
+                font-family: 'Euclid Circular A';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 32px;
+                color: $clr-basic;
+            }
+
+            p {
+                font-family: 'Euclid Circular A';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: $clr-basic;
+            }
+        }
+
+        .guest-buttons {
+
+
+            width: 30%;
+
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+
+            button {
+                border: none;
+                width: 262px;
+                height: 48px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 8px;
+
+
+            }
+
+
+        }
+
+        .guest-buttons {
+            :nth-child(2) {
+                background-color: $clr-brandyellow500;
+                border: 2px solid $clr-basic ;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    img {
+        position: absolute;
+        bottom: 0px;
+    }
+
+}
+
+
+
+
+
+
+
+.d-block {
+    display: block !important;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+
+
+//! signup  MAIN signup  MAIN signup  MAIN 
+
+.signup-and-login-btns {
+    display: flex;
+    width: 100%;
+    height: 72px;
+    background-color: $clr-brandyellow500;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    overflow: hidden;
+
+    .signup-signup-btn {
+        width: 45%;
+        height: 48px;
+        background-color: $clr-white;
+        border: none;
+        font-family: 'Euclid Circular A';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        border-radius: 8px 8px 0px 0px;
+        /* identical to box height, or 150% */
+        position: relative;
+        text-align: center;
+
+    }
+
+    .signup-login-btn {
+        width: 45%;
+        height: 48px;
+        background-color: $clr-brandyellow300;
+        border: none;
+        font-family: 'Euclid Circular A';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        border-radius: 8px 8px 0 0;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+
+
+    }
+
+    .signup-signup-btn:before,
+    .signup-signup-btn:after {
+        content: "";
+        position: absolute;
+
+        height: 10px;
+        width: 20px;
+
+        bottom: 0;
+    }
+
+    .signup-signup-btn:after {
+        right: -20px;
+
+        border-radius: 0 0 0 10px;
+
+        box-shadow: -10px 0 0 0 #fff;
+    }
+
+    .signup-signup-btn:before {
+        left: -20px;
+
+        border-radius: 0 0 10px 0;
+
+        box-shadow: 10px 0 0 0 #fff;
+    }
+}
+
+.signup-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+
+
+    .signup-signup {
+        width: 25%;
+        text-align: center;
+
+        h6 {
+            font-family: 'Euclid Circular A';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            color: $clr-Basic700;
+        }
+
+        .signup-radio-btns {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 20px;
+
+            .signup-inputs {
+                display: flex;
+                align-items: center;
+
+                input {
+                    margin-right: 5px;
+                }
+            }
+
+            input[type="radio"] {
+                appearance: none;
+                display: inline-block;
+                width: 17px;
+                height: 17px;
+                background-clip: content-box;
+                border: 1px solid $clr-Basic500;
+                background-color: #e7e6e7;
+                border-radius: 50%;
+            }
+
+            input[type="radio"]:checked {
+                background-color: $clr-brandyellow500;
+                padding: 2px;
+                border: 1px solid $clr-brandyellow500;
+            }
+
+        }
+
+        .with-btn {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            button {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                width: 45%;
+                height: 44px;
+                background: #FFFFFF;
+                border: 1px solid #C5CEE0;
+                border-radius: 8px;
+            }
+        }
+
+        .signup-line {
+            display: flex;
+            width: 100%;
+            margin-top: 20px;
+            align-items: center;
+            justify-content: center;
+
+            .line {
+                width: 40%;
+                height: 1px;
+                background-color: $clr-basic400;
+            }
+
+            p {
+                font-family: 'Euclid Circular A';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: $clr-basic600;
+
+                display: flex;
+                margin-left: 20px;
+                margin-right: 20px;
+
+            }
+        }
+
+        .signup-person-details {
+            .person-details {
+
+
+                .details {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+
+
+                    label {
+                        font-family: 'Euclid Circular A';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 16px;
+                        margin-top: 20px;
+                    }
+
+                    input {
+                        width: 100%;
+                        height: 48px;
+                        border-radius: 10px;
+                        padding: 10px;
+                        border: 1px solid $clr-basic400;
+
+                    }
+
+                    input:nth-child(3) {
+                        padding: 10px 35px 10px 10px;
+                    }
+
+
+                    input::placeholder {
+                        font-family: 'Euclid Circular A';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: $clr-basic600;
+                    }
+
+                    #togglePassword {
+                        position: absolute;
+                        right: 7px;
+                        bottom: 12px;
+                        display: none;
+                    }
+
+                    .eye-fawsm {
+
+                        color: $clr-basic600;
+                        position: absolute;
+                        right: 9px;
+                        bottom: 16px;
+                    }
+
+                }
+
+
+            }
+
+        }
+
+        .signup-end-text {
+            font-family: 'Euclid Circular A';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            /* or 143% */
+
+            text-align: center;
+            color: $clr-Basic700;
+            margin-top: 20px;
+
+            a {
+                color: #3366FF;
+                text-decoration: none;
+            }
+        }
+
+        .signup-end-button {
+            width: 100%;
+            height: 48px;
+            border: none;
+            margin-top: 20px;
+            margin-bottom: 50px;
+
+            background: #FFD339;
+            border-radius: 8px;
+        }
+    }
+}
+
+
+
+//! BALANCE HTML BALANCE HTML BALANCE HTML 
+.balance-body {
+    background-color: $clr-bg;
+
+    .balance-main-container {
+        display: flex;
+
+        .balance-menus {
+            margin-top: 20px;
+            margin-left: 30px;
+            width: 280px;
+            height: 648px;
+            border-radius: 10px;
+            background-color: $clr-white;
+
+
+
+            p {
+                font-family: 'Euclid Circular A';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: $clr-basic600;
+                margin-left: 40px;
+                margin-top: 30px;
+
+            }
+
+            ul {
+                height: 100%;
+                margin-left: 25px;
+                margin-top: 30px;
+
+
+                li {
+                    width: 193px;
+                    height: 48px;
+                    border-radius: 10px;
+
+                    list-style-type: none;
+                    margin-top: 2%;
+                    display: flex;
+
+                    align-items: center;
+
+                    img {
+                        margin-left: 5%;
+
+                    }
+
+
+
+
+                    p {
+                        font-family: 'Euclid Circular A';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: $clr-basic800;
+                        margin-left: 5%;
+                        margin-top: 0px;
+                    }
+                }
+
+                li:hover {
+                    background-color: $clr-brandyellow500;
+
+                    img {
+                        filter: brightness(45%);
+                    }
+                }
+            }
+
+
+        }
+
+        .balance-main {
+            margin-left: 25px;
+            margin-top: 25px;
+
+            h3 {
+                font-family: 'Euclid Circular A';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 32px;
+                color: $clr-basic;
+            }
+
+            .active-balance-container {
+                width: 904px;
+                height: 176px;
+                background-image: linear-gradient(#00BF71, #1FD78C);
+                border-radius: 10px;
+                margin-top: 20px;
+
+                .active-balance {
+                    position: absolute;
+                    margin-left: 20px;
+                    margin-top: 30px;
+
+                    h6 {
+                        font-family: 'Euclid Circular A';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 28px;
+                        display: flex;
+                        align-items: center;
+                        color: $clr-white;
+
+                    }
+
+
+
+                    .active-balance-area {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 30px;
+
+                        h3 {
+                            font-family: 'Euclid Circular A';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 48px;
+                            line-height: 64px;
+                            display: flex;
+                            align-items: center;
+                            color: $clr-white;
+                            margin-right: 90px;
+                        }
+
+                        .amount-active {
+                            display: flex;
+                            align-items: center;
+
+
+
+                            p {
+                                font-family: 'Euclid Circular A';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                display: flex;
+                                align-items: center;
+                                color: $clr-white;
+                            }
+
+                            h5 {
+                                font-family: 'Euclid Circular A';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 34px;
+                                line-height: 40px;
+                                display: flex;
+                                align-items: center;
+                                color: $clr-white;
+                                margin-left: 20px;
+                            }
+                        }
+
+                        button {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-evenly;
+                            width: 202px;
+                            height: 48px;
+                            background-color: $clr-white;
+                            border: none;
+                            color: $clr-basic;
+                            font-family: 'Euclid Circular A';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px;
+                            border-radius: 8px;
+                            margin-left: 190px;
+
+
+
+
+
+                        }
+
+
+                    }
+                }
+
+                .active-bg {
+                    position: absolute;
+                    right: 140px;
+                }
+
+            }
+
+            .transaction {
+                margin-top: 20px;
+            }
+
+            .balance-operation-area {
+                width: 888px;
+                height: 68px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-inline: 37px;
+
+                p {
+                    font-family: 'Euclid Circular A';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 16px;
+                    color: $clr-Basic700;
+                }
+
+            }
+
+            .balance-costs-area {
+                width: 904px;
+                height: 1490px;
+                background-color: $clr-white;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                // overflow: hidden;
+
+
+                .balance-costs-container {
+
+                    width: 888px;
+                    height: 68px;
+                    display: flex;
+                    // justify-content: space-between;
+                    align-items: center;
+
+                    padding-inline: 37px;
+
+                    p {
+
+                        font-family: 'Euclid Circular A';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+
+                        .date {
+                            margin-right: 20px;
+                        }
+
+                    }
+
+                    .operation {
+                        margin-left: 90px;
+                    }
+
+                    .id {
+                        margin-left: 100px;
+                    }
+
+                    .amount {
+                        margin-left: 150px;
+                    }
+
+                    .status {
+                        margin-left: 150px;
+                        color: #00D68F;
+                    }
+
+                    .pending {
+                        position: absolute;
+                        right: 5%;
+                        color: #FFAA00;
+                    }
+
+                    .unpaid {
+                        position: absolute;
+                        right: 5.5%;
+                        color: #FF3D71;
+
+                    }
+
+                }
+
+                .balance-costs-container-dcolor {
+                    background-color: $clr-basic200;
+                }
+
+                .container {
+                    position: relative;
+                    margin: 0 auto;
+                    width: 20%;
+                    margin-top: 25px;
+
+                    .slick-prev:before,
+
+                    .slick-next:before {
+                        color: $clr-basic;
+
+                    }
+
+
+                }
+
+
+
+                .slider-p {
+                    border-radius: 8px;
+                    background: #fff;
+                    color: #3498db;
+                    font-size: 36px;
+                    line-height: 100px;
+                    margin: 10px;
+                    // padding:2%;
+                    //width: 100px;
+                    //height: 100px;
+                    position: relative;
+                    text-align: center;
+
+                    .top {
+                        font-size: 70%;
+                        height: 30%;
+
+                        margin: 0 auto;
+
+                    }
+
+                    .bottom {
+                        font-size: 70%;
+                        width: 70%;
+                        margin: 0 auto;
+
+                    }
+                }
+
+                .clip {
+
+                    // height: 200px;
+                    overflow: hidden;
+                    bottom: 0;
+                }
+
+
+
+                .center {
+                    .slick-center {
+
+                        .slider-p {
+
+                            transform: scale(1.0);
+                            //width: 150px;
+                            //height: 120px;
+                            color: #e67e22;
+                            opacity: 1;
+
+                            .top {
+                                font-size: 90%;
+                                width: 90%;
+                                background-color: rgba(blue, 0.3);
+                            }
+
+                            .bottom {
+                                font-size: 90%;
+                                width: 90%;
+                                background-color: rgba(green, 0.3);
+                            }
+                        }
+
+                        .center .slider-p {
+                            opacity: 0.8;
+                            transition: all 300ms ease;
+                            bottom: 0;
+                            transform: scale(0.9);
+                        }
+                    }
+
+
+
+                }
+            }
+
+            .transaction-mobile-container {
+                width: 290px;
+                height: 212px;
+                background-color: $clr-white;
+                border-radius: 10px;
+                margin-top: 20px;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+                .mobile-container {
+                    height: 40px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-inline: 20px;
+
+                    p:nth-child(1) {
+                        font-family: 'Euclid Circular A';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 16px;
+                        color: $clr-basic600;
+                    }
+
+                    p {
+                        font-family: 'Euclid Circular A';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+
+
+
+                    .mobile-paid {
+                        color: #00D68F;
+                    }
+
+
+
+                }
+            }
+        }
+    }
+}

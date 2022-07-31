@@ -1,0 +1,738 @@
+@media(min-width:1024px) {
+
+
+    .header {
+        .logo {
+            button {
+                border: none;
+
+
+            }
+
+            .sidebar-icn {
+                display: none;
+            }
+
+            .join-btn {
+                display: none;
+            }
+
+
+        }
+
+        .navbar {
+            .icon {
+                display: none;
+            }
+
+            .signup {
+                .btns-div {
+                    .guest {
+                        display: none;
+
+                    }
+
+                    .content {
+                        display: none;
+                    }
+                }
+
+                .currency {
+                    display: none;
+                }
+
+                .lng {
+                    display: none;
+                }
+
+            }
+        }
+    }
+
+    // signup signup signup 
+    .signup-header {
+        a {
+            display: none;
+        }
+    }
+
+    .signup-and-login-btns {
+        display: none;
+    }
+
+    // balance balance balance 
+    .balance-menus {
+
+
+        .balance-x {
+            display: none;
+        }
+    }
+
+    .balance-main {
+
+        .transaction-mobile-container {
+            display: none;
+        }
+    }
+
+
+
+}
+
+@media(max-width:576px) {
+    .header {
+        display: inline-block;
+        border-bottom: 1px solid $clr-Basic500;
+        padding-bottom: 10px;
+        width: 100%;
+
+        display: flex;
+
+
+
+
+        .logo {
+
+            display: flex;
+            align-items: center;
+
+
+            button {
+                margin-left: 10px;
+                margin-right: 10px;
+                border: none;
+
+                .sidebar {
+                    display: block;
+                }
+            }
+
+            .join-btn {
+                position: relative;
+                display: block;
+                margin-left: 30px;
+
+                .join {
+                    font-family: 'Euclid Circular A';
+                    display: block;
+                    width: 80px;
+                    height: 40px;
+                    border-radius: 8px;
+                    color: $clr-basic;
+                    font-weight: 500;
+                    background-color: $clr-brandyellow500;
+                    // margin-left: -36px;
+
+                }
+            }
+
+        }
+
+
+
+        .navbar {
+            background-color: $clr-white;
+            width: 306px;
+            height: 100%;
+            position: fixed;
+            left: -100%;
+            top: 0;
+            display: block;
+
+
+            transition: 0.9s;
+            z-index: 100;
+
+            .icon {
+                background-color: $clr-white;
+                border: none;
+                margin-top: 28px;
+                margin-left: 18px;
+
+            }
+
+            nav {
+
+
+                ul {
+
+                    display: flex;
+                    height: 150px;
+                    width: 100%;
+                    margin-top: 10px;
+                    flex-direction: column;
+                    align-content: space-evenly;
+                    align-items: center;
+
+                    li {
+                        margin-left: 50px;
+                    }
+
+
+
+
+
+
+                }
+            }
+
+            .signup {
+                display: flex;
+                flex-direction: column;
+
+
+                .hr {
+                    width: 220px;
+                    height: 1px;
+                    background-color: $clr-hr;
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                }
+
+
+
+                .btns {
+                    display: none;
+                }
+
+                .lang {
+                    display: none;
+                }
+
+                .change {
+                    display: flex;
+                    justify-content: center;
+                    width: 88px;
+                    height: 40px;
+                    background-color: $clr-basic400;
+                    border-radius: 8px;
+                    margin-left: 25px;
+                }
+
+                .currency {
+                    display: inline-block;
+                }
+
+                .usdazn {
+
+                    margin-top: 327px;
+                    margin-left: 0px;
+
+                }
+            }
+
+
+        }
+
+
+    }
+
+    .bg-black {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        background-color: rgba(0, 0, 0, 0.752);
+
+    }
+
+
+    .container-sec {
+        padding-inline: 0px;
+        margin-top: 40px;
+
+        h1 {
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 40px;
+
+
+
+        }
+
+        .text {
+
+
+            margin-inline: 19px;
+
+        }
+
+        .creator-btns {
+            display: flex;
+            flex-direction: column;
+
+            .guest {
+                margin-right: 0px;
+            }
+
+            p {
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .content {
+                margin-left: 0px;
+                margin-top: 0px;
+            }
+        }
+
+        .xxx {
+            display: none;
+
+        }
+
+        .group {
+            width: 48px;
+            height: 48px;
+            top: 400px;
+            left: 256px;
+            z-index: -1;
+        }
+
+        .plus {
+            left: 27px;
+            top: 100px;
+            z-index: -11;
+
+        }
+    }
+
+
+
+    .features {
+        height: 968px;
+        margin-top: 100px;
+
+        .features-img {
+            img {
+
+                width: 50%;
+            }
+        }
+
+        .features-contnet {
+            .content {
+                width: 70%;
+                z-index: 1;
+
+
+            }
+        }
+    }
+
+    .analyze {
+        .signup-text {
+            margin-right: 10%;
+            margin-left: 10%;
+        }
+
+        .signup-block {
+            width: 300px;
+            height: 287px;
+            margin-top: 50px;
+            margin-right: 33px;
+
+            .ellips1 {
+                width: 121px;
+                height: 121px;
+                margin-left: 30px;
+            }
+
+            .block {
+                width: 193.55px;
+                height: 265px;
+                left: 60px;
+                top: 30px;
+
+                h1 {
+                    font-weight: 400;
+                    font-size: 16.5899px;
+                    line-height: 22px;
+                    margin-top: 40px;
+                }
+
+                .block-sign {
+                    width: 127.19px;
+                    height: 28.59px;
+                    border-radius: 2px;
+                    font-size: 9.67742px;
+                    line-height: 11px;
+                    margin-top: 50px;
+                }
+
+                .block-login {
+                    width: 127.19px;
+                    height: 28.59px;
+                    border-radius: 5px;
+                    font-size: 9.67742px;
+                    line-height: 11px;
+                }
+            }
+
+
+            .ellips2 {
+                width: 121px;
+                height: 121px;
+                margin-top: 150px;
+                // margin-left: 30px;
+            }
+        }
+
+        .websites-block {
+            margin-right: 100px;
+
+            .web-bg {
+
+
+                width: 358.1px;
+                height: 247.41px;
+
+
+            }
+
+            .websites {
+                width: 298.1px;
+                height: 197.41px;
+
+                .medium-block {
+                    .web-container {
+                        padding-left: 0px;
+
+                        margin-bottom: 0px;
+
+                        font-size: 15px;
+                    }
+                }
+
+            }
+
+            .ellipse {
+                position: absolute;
+                width: 118.3px;
+
+                height: 117.93px;
+                right: -11px;
+            }
+        }
+    }
+
+
+    .acces {
+        height: 800px;
+
+        .acces-container {
+            height: 600px;
+        }
+    }
+
+
+
+    .container-fluid {
+        width: 85%;
+
+        .card {
+            height: 360px;
+            border: none;
+
+            .card-head {
+                img {
+                    margin-right: 25px;
+                    margin-left: 0px;
+                }
+            }
+
+            .card-main {
+                p {
+                    margin-right: 0px;
+                    margin-left: 5px;
+                }
+            }
+
+        }
+
+        .left {
+
+            position: absolute;
+            margin-right: 100px;
+            margin-top: 440px;
+        }
+
+        .right {
+            position: absolute;
+
+            margin-left: 100px;
+            margin-top: 440px;
+        }
+
+
+
+
+    }
+
+    .customers-container {
+        .customers-head {
+            margin-top: 160px;
+        }
+
+        .customers-area {
+
+            img {
+                margin-inline: 10px;
+            }
+        }
+    }
+
+    .guest-container {
+        width: 100%;
+        height: 626px;
+
+        .guest-area {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            width: 100%;
+            height: 626px;
+
+            .guest-text {
+                width: 250px;
+
+            }
+
+            .guest-buttons {
+                width: 250px;
+                margin-bottom: 150px;
+
+            }
+        }
+    }
+
+    footer {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .footer-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                margin-left: 10%;
+            }
+
+            .footer-container-box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                align-content: center;
+                margin-top: 30px;
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+
+        .footer-social-medias {
+            margin-top: 0px;
+        }
+
+        .blogie-end {
+            margin-top: 0px;
+        }
+    }
+
+    // signup sign up sigin up 
+
+    .signup-header {
+        .logo {
+            width: 103px;
+            height: 32px;
+        }
+
+        .signup-login {
+            display: none;
+        }
+    }
+
+
+    .signup-main {
+        .main-img {
+            display: none;
+        }
+
+        .signup-signup {
+            width: 80%;
+
+            h6 {
+                display: none;
+            }
+
+        }
+
+    }
+
+    // balance balance balance balance 
+
+
+    .balance-body {
+        .balance-join {
+            display: none !important;
+        }
+
+        .balance-btns-div {
+            display: none !important;
+        }
+
+        .balance-navbar {
+            display: none !important;
+
+
+
+            .balance-nav {
+                display: none !important;
+            }
+        }
+
+        .balance-main-container {
+            flex-direction: column;
+
+            .balance-menus {
+                width: 100%;
+                height: 64px;
+                flex-direction: row;
+                justify-content: center;
+
+                scrollbar-width: none;
+                overflow-x: scroll;
+                margin-top: 0px;
+                margin-left: 0px;
+                border-radius: 0px;
+
+                ul {
+                    display: flex;
+
+                    margin-left: 0px;
+                    margin-top: 0px;
+
+                    li {
+                        background-color: $clr-white;
+
+                        img {
+                            display: none;
+
+                        }
+
+                        p {
+                            width: 117px;
+                            height: 32px;
+                            border: 1px solid $clr-basic;
+                            border-radius: 20px;
+                            text-align: center;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }
+
+                        p:hover {
+                            background-color: $clr-basic;
+                            color: $clr-white;
+                        }
+                    }
+
+                    li:hover {
+                        background-color: $clr-white;
+                    }
+
+
+                }
+
+                .balance-menus-text {
+                    display: none;
+                }
+            }
+
+            .balance-menus::-webkit-scrollbar {
+                display: none;
+            }
+
+            .balance-main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-left: 0px;
+
+                h3 {
+                    margin-right: 50%;
+                }
+
+                .transaction {
+                    margin-right: 37%;
+                }
+
+                .active-balance-container {
+                    width: 290px;
+                    height: 248px;
+
+                    .active-balance {
+                        .active-balance-area {
+                            flex-direction: column;
+                            align-items: flex-start;
+                            margin-top: 0px;
+
+
+
+                            button {
+                                margin-left: 0px;
+                                margin-top: 10px;
+                            }
+
+                            .amount-active {
+                                margin-top: 20px;
+
+                                h5 {
+                                    font-weight: 600;
+                                    font-size: 20px;
+                                    line-height: 28px;
+
+                                }
+                            }
+                        }
+                    }
+
+                    img {
+                        display: none;
+                    }
+                }
+
+                .balance-operation-area {
+                    display: none;
+                }
+
+                .balance-costs-area {
+                    display: none;
+                }
+
+                .transaction-mobile-container {
+                    display: flex;
+                }
+            }
+
+
+
+        }
+
+
+    }
+}

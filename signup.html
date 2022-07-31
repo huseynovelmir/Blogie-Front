@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./images/_icon192x192.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="signup-header">
+            <img src="./images/Logo.svg" alt="" class="logo">
+            <div class="signup-login">
+                <p>Have an account?</p>
+                <button class="signup-login-btn">Log in</button>
+            </div>
+            <a href="./index.html"> <img src="./images/Icon-x.svg" alt="" class="icon-x"></a>
+
+        </div>
+
+    </section>
+    <section>
+        <div class="signup-and-login-btns">
+            <button class="signup-login-btn">Login</button>
+            <button class="signup-signup-btn">Sign up</button>
+        </div>
+
+        <div class="signup-main">
+            <img src="./images/7.svg" alt="" class="main-img">
+            <div class="signup-signup">
+                <h6>Sign up</h6>
+
+                <form class="signup-radio-btns">
+                    <div class="signup-inputs">
+                        <input type="radio" name="HTML" class="radio1">
+                        <label>As buyer</label>
+                    </div>
+                    <div class="signup-inputs">
+                        <input type="radio" name="HTML">
+                        <label>As seller</label>
+                    </div>
+
+                </form>
+                <div class="with-btn">
+                    <button><img src="./images/logo googleg 48dp.svg" alt="">with Google</button>
+                    <button><img src="./images/Icon-fb-blue.svg" alt="">with Facebook</button>
+                </div>
+
+                <div class="signup-line">
+                    <div class="line"></div>
+                    <p>or</p>
+                    <div class="line"></div>
+                </div>
+
+                <div class="signup-person-details">
+                    <form class="person-details">
+                        <div class="details">
+                            <label for="fname">Name</label><br>
+                            <input type="text" name="fname" placeholder="Enter your name">
+                        </div>
+                        <div class="details">
+                            <label for="email">Email</label><br>
+                            <input type="email" name="email" placeholder="Enter your email">
+                        </div>
+                        <div class="details">
+                            <label for="password">Password</label><br>
+                            <input type="password" name="password" placeholder="Enter your password" id="password">
+                            <img src="./images/★ Icon.svg" alt="" id="togglePassword">
+                            <i class="fa-solid fa-eye-slash eye-fawsm"></i>
+
+                        </div>
+                    </form>
+                </div>
+                <p class="signup-end-text">By signing up, you agree with <a href="">Terms</a> <br> and
+                    <a href="">Conditions</a> </p>
+                <button class="signup-end-button">Sign up</button>
+            </div>
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+    <script>
+        //  signup JS signup JS signup JS signup JS signup JS
+        const eye = document.querySelector('#togglePassword');
+        const password = document.querySelector('#password');
+        const hideeye = document.querySelector('.eye-fawsm')
+
+
+
+
+        hideeye.addEventListener('click', (e) => {
+
+
+            const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+            password.setAttribute('type', type);
+
+            hideeye.style.display = "none"
+            eye.style.display = "block"
+            this.classList.toggle('bi-eye');
+
+        });
+
+
+        eye.addEventListener('click', (e) => {
+
+
+            const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+            password.setAttribute('type', type);
+            hideeye.style.display = "block"
+            eye.style.display = "none"
+            this.classList.toggle('bi-eye');
+
+        });
+    </script>
+</body>
+
+</html>

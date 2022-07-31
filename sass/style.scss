@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import"./variables";
+@import"./header";
+
+@import"./main";
+@import"./footer";
+@import"./media";
+@import url('http://fonts.cdnfonts.com/css/euclid-circular-a?styles=100037,100034,100036,100039,100031');
